@@ -1,7 +1,8 @@
-import React, { useState } from 'react';
+import * as S from './styles';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-export default function Home() {
+export default function SearchBar() {
   const [text, setText] = useState('');
   const navigate = useNavigate();
 
@@ -16,9 +17,8 @@ export default function Home() {
   };
   return (
     <>
-      <div>Home</div>
       <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="id" value={text} onChange={handleChange} />
+        <S.SearchInput type="text" placeholder="책 제목을 입력해주세요." value={text} onChange={handleChange} />
       </form>
     </>
   );
