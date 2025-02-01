@@ -20,7 +20,7 @@ export default function PopularList() {
           <S.Li>
             <S.BookImg src={list.img} />
             <S.BookTitle>{list.title}</S.BookTitle>
-            <S.PlayIcon />
+            <S.PlayBtn />
           </S.Li>
         </S.Ul>
       ))}

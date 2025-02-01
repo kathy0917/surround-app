@@ -4,7 +4,7 @@ import { Home } from '../pages/Home/index';
 import Category from '../pages/Category';
 import My from '../pages/My';
 import Root from '../pages/Root';
-import Detail from '../pages/Detail';
+import { Detail } from '../pages/Detail/index';
 import { GlobalStyle } from '../shared/segments/ui/index';
 
 const router = createBrowserRouter([
