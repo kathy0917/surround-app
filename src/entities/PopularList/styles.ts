@@ -1,10 +1,6 @@
 import styled from 'styled-components';
 import { IoPlayCircle } from 'react-icons/io5';
 
-type Props = {
-  src: string;
-};
-
 export const Container = styled.div`
   width: 75vw;
   margin-left: 3px;
