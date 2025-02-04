@@ -6,7 +6,10 @@ export default function Detail() {
   return (
     <S.Container>
       <S.Title>나현 님의 검색 결과</S.Title>
-      <BookInfo />
+      <S.Column>
+        <S.SubTitle>책 상세</S.SubTitle>
+        <BookInfo />
+      </S.Column>
       <RecommendMusic />
     </S.Container>
   );

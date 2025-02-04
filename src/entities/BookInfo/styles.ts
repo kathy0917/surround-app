@@ -1,15 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-  position: absolute;
-  left: 20px;
-  top: 80px;
-`;
-
-export const Title = styled.h1`
-  font-size: 18px;
-`;
-
 export const Row = styled.div`
   display: flex;
   flex-direction: row;

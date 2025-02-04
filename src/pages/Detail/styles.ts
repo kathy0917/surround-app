@@ -13,3 +13,15 @@ export const Container = styled.div`
 export const Title = styled.h1`
   font-size: 20px;
 `;
+
+export const Column = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 24px;
+  top: 60px;
+`;
+
+export const SubTitle = styled.h1`
+  font-size: 18px;
+`;
