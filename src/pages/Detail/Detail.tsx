@@ -1,5 +1,5 @@
-import { BookInfo } from '../../entities/BookInfo/index';
-import { RecommendMusic } from '../../entities/RecommendMusic/index';
+import { BookInfo } from '../../entities/index';
+import { RecommendMusic } from '../../entities/index';
 import * as S from './styles';
 
 export default function Detail() {

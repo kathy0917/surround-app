@@ -1,5 +1,5 @@
-import { SearchBar } from '../../entities/SearchBar';
-import { PopularList } from '../../entities/PopularList';
+import { SearchBar } from '../../entities/index';
+import { PopularList } from '../../entities/index';
 
 import * as S from './styles';
 

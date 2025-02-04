@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import NotFound from '../pages/NotFound';
-import { Home } from '../pages/Home/index';
-import Category from '../pages/Category';
-import My from '../pages/My';
-import Root from '../pages/Root';
-import { Detail } from '../pages/Detail/index';
+import { NotFound } from '../pages/index';
+import { Home } from '../pages/index';
+import { Category } from '../pages/index';
+import { My } from '../pages/index';
+import { Root } from '../pages/index';
+import { Detail } from '../pages/index';
 import { GlobalStyle } from '../shared/segments/ui/index';
 
 const router = createBrowserRouter([
