@@ -8,7 +8,7 @@ export default function Home() {
     <S.Container>
       <S.Logo />
       <S.Column>
-        <SearchBar />
+        <SearchBar placeholder="책 제목을 입력하세요." />
         <PopularList />
       </S.Column>
     </S.Container>

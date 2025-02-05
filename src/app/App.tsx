@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { AddList, NotFound, Home, Category, My, Root, Detail } from '../pages/index';
+import { NotFound, Home, Category, My, Root, Detail } from '../pages/index';
 import { GlobalStyle } from '../shared/segments/ui/index';
+import { Step1_BookSearch } from '../widgets/index';
 
 const router = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: '/category', element: <Category /> },
       { path: '/my', element: <My /> },
-      { path: '/my/addList', element: <AddList /> },
+      { path: '/my/booksearch', element: <Step1_BookSearch /> },
       { path: '/detail/:id', element: <Detail /> },
     ],
   },

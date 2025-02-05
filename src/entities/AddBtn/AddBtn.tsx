@@ -1,9 +1,13 @@
 import * as S from './styles';
 
-export default function AddBtn() {
+interface AddProps {
+  onClick: () => void;
+}
+
+export default function AddBtn({ onClick }: AddProps) {
   return (
     <>
-      <S.AddBtn>삭제</S.AddBtn>
+      <S.AddBtn onClick={onClick} />
     </>
   );
 }
