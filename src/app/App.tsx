@@ -1,10 +1,5 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { NotFound } from '../pages/index';
-import { Home } from '../pages/index';
-import { Category } from '../pages/index';
-import { My } from '../pages/index';
-import { Root } from '../pages/index';
-import { Detail } from '../pages/index';
+import { AddList, NotFound, Home, Category, My, Root, Detail } from '../pages/index';
 import { GlobalStyle } from '../shared/segments/ui/index';
 
 const router = createBrowserRouter([
@@ -16,6 +11,7 @@ const router = createBrowserRouter([
       { index: true, element: <Home /> },
       { path: '/category', element: <Category /> },
       { path: '/my', element: <My /> },
+      { path: '/my/addList', element: <AddList /> },
       { path: '/detail/:id', element: <Detail /> },
     ],
   },

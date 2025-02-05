@@ -1,6 +1,4 @@
-import { EditBtn } from '../../entities/index';
-import { DeleteBtn } from '../../entities/index';
-import { BookInfo } from '../../entities/index';
+import { EditBtn, AddBtn, DeleteBtn, BookInfo } from '../../entities/index';
 import * as S from './styles';
 
 export default function My() {
@@ -16,7 +14,7 @@ export default function My() {
           </S.BtnRow>
         </S.Row>
       </S.Column>
-      <S.AddBtn />
+      <AddBtn />
     </S.Container>
   );
 }

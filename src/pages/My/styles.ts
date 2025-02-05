@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { IoAddCircleSharp } from 'react-icons/io5';
 
 export const Container = styled.div`
   display: flex;
@@ -33,12 +32,4 @@ export const BtnRow = styled.div`
   justify-content: space-around;
   width: 110px;
   align-items: center;
-`;
-
-export const AddBtn = styled(IoAddCircleSharp)`
-  position: absolute;
-  font-size: 39px;
-  color: #16421f;
-  right: 0px;
-  bottom: 0px;
 `;
