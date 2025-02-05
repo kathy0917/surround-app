@@ -15,9 +15,9 @@ export default function PopularList() {
   return (
     <S.Container>
       <S.Title>실시간 인기 검색</S.Title>
-      {popularList.map((list) => (
+      {popularList.map((list, idx) => (
         <S.Ul>
-          <S.Li>
+          <S.Li key={idx}>
             <S.BookImg src={list.img} />
             <S.BookTitle>{list.title}</S.BookTitle>
             <S.PlayBtn />

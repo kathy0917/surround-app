@@ -15,6 +15,26 @@ export const Title = styled.h1`
   font-size: 23px;
 `;
 
+export const Column = styled.div`
+  width: inherit;
+  height: inherit;
+  overflow: auto;
+`;
+
+export const Row = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+export const BtnRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 110px;
+  align-items: center;
+`;
+
 export const AddBtn = styled(IoAddCircleSharp)`
   position: absolute;
   font-size: 39px;
