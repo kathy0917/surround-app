@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { NotFound, Home, Category, My, Root, Detail } from '../pages/index';
-import { GlobalStyle } from '../shared/segments/ui/index';
+import { GlobalStyle } from '../shared/ui/index';
 import { Step1BookSearch } from '../widgets/index';
 
 const router = createBrowserRouter([

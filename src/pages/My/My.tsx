@@ -1,4 +1,4 @@
-import { EditBtn, AddBtn, DeleteBtn, BookInfo } from '../../entities/index';
+import { EditBtn, AddBtn, DeleteBtn, BookInfo } from '../../features/index';
 import { useNavigate } from 'react-router-dom';
 import * as S from './styles';
 
