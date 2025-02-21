@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Row = styled.div`
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 `;
 
 export const BookImg = styled.img`
@@ -11,6 +12,14 @@ export const BookImg = styled.img`
   object-fit: contain;
   border-radius: 5px;
   margin-right: 10px;
+`;
+
+export const NotFoundImg = styled.div`
+  width: 40px;
+  height: 60px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #d3d3d3;
 `;
 
 export const Column = styled.div`

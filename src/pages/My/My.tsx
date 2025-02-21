@@ -17,7 +17,7 @@ export default function My() {
           </S.BtnRow>
         </S.Row>
       </S.Column>
-      <AddBtn onClick={() => navigate('/my/booksearch')} />
+      <AddBtn onClick={() => navigate('/my/searchbook')} />
     </S.Container>
   );
 }

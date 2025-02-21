@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 interface SearchBarProps {
   placeholder?: string;
-  setSearchWord: React.Dispatch<React.SetStateAction<string>>;
+  setSearchWord: React.Dispatch<string>;
 }
 
 export default function SearchBar({ placeholder, setSearchWord }: SearchBarProps) {
@@ -15,13 +15,14 @@ export default function SearchBar({ placeholder, setSearchWord }: SearchBarProps
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (text.trim().length === 0) return;
     setSearchWord(text);
   };
   return (
     <S.Container>
       <form onSubmit={handleSubmit}>
         <S.SearchInput type="text" onSubmit={handleSubmit} value={text} onChange={handleChange} placeholder={placeholder} />
-        <S.SearchIcon onSubmit={handleSubmit} />
+        <S.SearchIcon onClick={handleSubmit} />
       </form>
     </S.Container>
   );

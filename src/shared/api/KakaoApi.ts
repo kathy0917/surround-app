@@ -10,10 +10,5 @@ export default async function KakaoApi(searchWord: string) {
   });
 
   const data = await res.json();
-  console.log('!!!!!!');
-  console.log(data);
-
-  console.log(`'''''''''''''''`);
-  console.log(res);
   return data.documents;
 }
