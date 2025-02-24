@@ -23,7 +23,7 @@ export const SearchInput = styled.input`
   }
 `;
 
-export const SearchIcon = styled(IoSearch)`
+export const SearchIcon = styled(IoSearch as any)`
   font-size: 23px;
   color: #325b3d;
   z-index: 2;

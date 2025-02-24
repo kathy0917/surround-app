@@ -39,7 +39,7 @@ export const BookTitle = styled.h1`
   margin-top: 15px;
 `;
 
-export const PlayBtn = styled(IoPlayCircle)`
+export const PlayBtn = styled(IoPlayCircle as any)`
   font-size: 27px;
   position: absolute;
   right: 10px;

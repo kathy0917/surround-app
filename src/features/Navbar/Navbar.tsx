@@ -12,9 +12,9 @@ interface NavItem {
 }
 
 const navItem: NavItem[] = [
-  { url: '/category', icon: BiSolidCategory, label: 'Category', left: '-12px' },
-  { url: '/', icon: IoHomeSharp, label: 'Home', left: '-3px' },
-  { url: '/my', icon: FaUserCircle, label: 'My', left: '4px' },
+  { url: '/category', icon: BiSolidCategory as any, label: 'Category', left: '-12px' },
+  { url: '/', icon: IoHomeSharp as any, label: 'Home', left: '-3px' },
+  { url: '/my', icon: FaUserCircle as any, label: 'My', left: '4px' },
 ];
 
 export default function Navbar() {

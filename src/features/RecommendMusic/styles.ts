@@ -56,7 +56,7 @@ export const Singer = styled.h1`
   font-weight: 400;
 `;
 
-export const PlayBtn = styled(IoPlayCircle)`
+export const PlayBtn = styled(IoPlayCircle as any)`
   position: absolute;
   right: 10px;
   font-size: 27px;
