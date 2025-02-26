@@ -30,7 +30,7 @@ export const Container = styled.div`
   position: relative;
   transition: color 0.3s ease;
   &:hover {
-    color: #777777;
+    color: #15421f;
   }
 `;
 
